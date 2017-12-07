@@ -1,9 +1,27 @@
 class PigeonMessage:
 
-	def __init__(self,name):
+	def __init__(self,message):
 		self.message = message
 
-	def secret(self):
-		array[] = list(message)
+	def secret(self,array):
+		array = list(message)
+		print(array)
+		x = 0
+		while len(array)-1 >= x:
+			if array[x].lower() == 'a':
+				array[x] = '1'
+			elif array[x].lower() == 'b':
+				array[x] = '2'
+			x += 1
 
-		if 
+message = str(input("Enter your message here:\n"))
+message1 = PigeonMessage(message)
+
+
+print(message)
+
+message1.secret(array)
+
+print(array)
+
+
