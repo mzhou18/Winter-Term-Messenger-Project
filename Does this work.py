@@ -62,7 +62,9 @@ class Encoding:
 			elif list1[n].lower() == 'z':
 				list1[n] = 'd'
 			n = n+1
+		string1 =''.join(list1)
 		print(list1)
+		print(string1)
 
 
 code1 = Encoding(str(input('What message would you like to encode?')))
