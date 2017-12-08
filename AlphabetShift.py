@@ -4,11 +4,12 @@ class Encoding:
 
 	def __init__(self, message):
 		self.message = message
+		self.string1 = ''
+		self.string2 = ''
 
 	def encode(self):
 		list1 = list(self.message)
 		n = 0
-		global string1
 		while len(list1)-1 >= n:
 			if list1[n].lower() == 'a':
 				list1[n] = 'e'
@@ -63,7 +64,7 @@ class Encoding:
 			elif list1[n].lower() == 'z':
 				list1[n] = 'd'
 			n = n+1
-		string1 =''.join(list1)
+		self.string1 =''.join(list1)
 
 	def decode(self):
 		list2 = list(self.message)
@@ -123,8 +124,8 @@ class Encoding:
 			elif list2[a].lower() == 'd':
 				list2[a] = 'z'
 			a = a+1
-		string2 =''.join(list2)
-
+		self.string2 =''.join(list2)
+'''
 answer = str(input('Would you like to encode a message or decode a message? 1 for encode or 2 for decode  '))
 while answer != '1' and answer != '2':
 	print('That is not an option.\n')
@@ -138,3 +139,4 @@ if answer =='2':
 	code1 = Encoding(str(input('What message would you like to decode?  ')))
 	code1.decode()
 	print(string2)
+'''
