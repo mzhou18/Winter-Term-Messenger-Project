@@ -66,6 +66,69 @@ class Encoding:
 		print(list1)
 		print(string1)
 
+	def decode(self):
+		self.words = str(input('What message would you like to decode?'))
+		list2 = list(self.words)
+		a = 0
+		while len(list2)-1 >= a:
+			if list2[a].lower() == 'e':
+				list2[a] = 'a'
+			elif list2[a].lower() == 'f':
+				list2[a] = 'b'
+			elif list2[a].lower() == 'g':
+				list2[a] = 'c'
+			elif list2[a].lower() == 'h':
+				list2[a] = 'd'
+			elif list2[a].lower() == 'i':
+				list2[a] = 'e'
+			elif list2[a].lower() == 'j':
+				list2[a] = 'f'
+			elif list2[a].lower() == 'k':
+				list2[a] = 'g'
+			elif list2[a].lower() == 'l':
+				list2[a] = 'h'
+			elif list2[a].lower() == 'm':
+				list2[a] = 'i'
+			elif list2[a].lower() == 'n':
+				list2[a] = 'j'
+			elif list2[a].lower() == 'o':
+				list2[a] = 'k'
+			elif list2[a].lower() == 'p':
+				list2[a] = 'l'
+			elif list2[a].lower() == 'q':
+				list2[a] = 'm'
+			elif list2[a].lower() == 'r':
+				list2[a] = 'n'
+			elif list2[a].lower() == 's':
+				list2[a] = 'o'
+			elif list2[a].lower() == 't':
+				list2[a] = 'p'
+			elif list2[a].lower() == 'u':
+				list2[a] = 'q'
+			elif list2[a].lower() == 'v':
+				list2[a] = 'r'
+			elif list2[a].lower() == 'w':
+				list2[a] = 's'
+			elif list2[a].lower() == 'x':
+				list2[a] = 't'
+			elif list2[a].lower() == 'y':
+				list2[a] = 'u'
+			elif list2[a].lower() == 'z':
+				list2[a] = 'v'
+			elif list2[a].lower() == 'a':
+				list2[a] = 'w'
+			elif list2[a].lower() == 'b':
+				list2[a] = 'x'
+			elif list2[a].lower() == 'c':
+				list2[a] = 'y'
+			elif list2[a].lower() == 'd':
+				list2[a] = 'z'
+			a = a+1
+		string2 =''.join(list2)
+		print(list2)
+		print(string2)
+
 
 code1 = Encoding(str(input('What message would you like to encode?')))
 code1.encode()
+code1.decode()
