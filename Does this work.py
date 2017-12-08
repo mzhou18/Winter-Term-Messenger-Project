@@ -61,6 +61,7 @@ class Encoding:
 				list1[n] = 'c'
 			if list1[n].lower() == 'z':
 				list1[n] = 'd'
+			print(list1)
 
 code1 = Encoding(str(input('What message would you like to encode?')))
 code1.encode()
