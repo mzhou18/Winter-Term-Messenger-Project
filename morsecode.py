@@ -1,10 +1,4 @@
-#Winter Project
-
-#Goal: (1) Github (2) Classes
-
-#Messenger: 3 messenger classes, 1 runner class (main class), and 1 write to file
-
-morsecode = {'A': '.-',     'B': '-...',   'C': '-.-.', 
+CODE = {'A': '.-',     'B': '-...',   'C': '-.-.', 
     'D': '-..',    'E': '.',      'F': '..-.',
     'G': '--.',    'H': '....',   'I': '..',
     'J': '.---',   'K': '-.-',    'L': '.-..',
@@ -20,13 +14,14 @@ morsecode = {'A': '.-',     'B': '-...',   'C': '-.-.',
     '9': '----.' 
     }
 
+
 def main():
 
-    message = input('MESSAGE: ')
+    msg = raw_input('MESSAGE: ')
 
-    for character in message:
-    	#converts all characters to uppercasae letters
-        print morsecode[character.upper()],
+    for char in msg:
+        print CODE[char.upper()],
+    raw_input("When done, press [ENTER]")
 
 if __name__ == "__main__":
     main()
