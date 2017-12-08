@@ -63,7 +63,6 @@ class Encoding:
 				list1[n] = 'd'
 			n = n+1
 		string1 =''.join(list1)
-		print(list1)
 		print(string1)
 
 	def decode(self):
@@ -125,10 +124,15 @@ class Encoding:
 				list2[a] = 'z'
 			a = a+1
 		string2 =''.join(list2)
-		print(list2)
 		print(string2)
 
+answer = str(input('Would you like to encode a message or decode a message? 1 for encode or 2 for decode'))
+while answer != '1' or answer != '2':
+	print('That is not an option.\n')
+	answer = str(input('Would you like to encode a message or decode a message? 1 for encode or 2 for decode'))
 
-code1 = Encoding(str(input('What message would you like to encode?')))
-code1.encode()
-code1.decode()
+if answer == '1':
+	code1 = Encoding(str(input('What message would you like to encode?')))
+	code1.encode()
+if answer =='2':
+	code1.decode()
