@@ -1,11 +1,13 @@
+import sys
 class PigeonMessage:
 
 	def __init__(self,message):
 		self.message = message
 
 	def secret(self):
+		global output1
+		global output2
 		array = list(self.message)
-		print(array)
 		x = 0
 		while len(array)-1 >= x:
 			if array[x].lower() == 'a':
@@ -61,17 +63,131 @@ class PigeonMessage:
 			elif array[x].lower() == 'z':
 				array[x] = '26'
 			x += 1
-		self.message = array
+		output1 = array
+		output2 = '-'.join(array)
 
-message = str(input("Enter your message here:\n"))
-message1 = PigeonMessage(message)
+	def unsecret(self):
+		global output1
+		global output2
+		array = self.message.split('-')
+		x = 0
+		while len(array)-1 >= x:
+			if array[x].lower() == '1':
+				array[x] = 'a'
+			elif array[x].lower() == '2':
+				array[x] = 'b'
+			elif array[x].lower() == '3':
+				array[x] = 'c'
+			elif array[x].lower() == '4':
+				array[x] = 'd'
+			elif array[x].lower() == '5':
+				array[x] = 'e'
+			elif array[x].lower() == '6':
+				array[x] = 'f'
+			elif array[x].lower() == '7':
+				array[x] = 'g'
+			elif array[x].lower() == '8':
+				array[x] = 'h'
+			elif array[x].lower() == '9':
+				array[x] = 'i'
+			elif array[x].lower() == '10':
+				array[x] = 'j'
+			elif array[x].lower() == '11':
+				array[x] = 'k'
+			elif array[x].lower() == '12':
+				array[x] = 'l'
+			elif array[x].lower() == '13':
+				array[x] = 'm'
+			elif array[x].lower() == '14':
+				array[x] = 'n'
+			elif array[x].lower() == '15':
+				array[x] = 'o'
+			elif array[x].lower() == '16':
+				array[x] = 'p'
+			elif array[x].lower() == '17':
+				array[x] = 'q'
+			elif array[x].lower() == '18':
+				array[x] = 'r'
+			elif array[x].lower() == '19':
+				array[x] = 's'
+			elif array[x].lower() == '20':
+				array[x] = 't'
+			elif array[x].lower() == '21':
+				array[x] = 'u'
+			elif array[x].lower() == '22':
+				array[x] = 'v'
+			elif array[x].lower() == '23':
+				array[x] = 'w'
+			elif array[x].lower() == '24':
+				array[x] = 'x'
+			elif array[x].lower() == '25':
+				array[x] = 'y'
+			elif array[x].lower() == '26':
+				array[x] = 'z'
+			x += 1
+		output1 = array
+		output2 = ''.join(array)
 
 
-print(message)
 
-message1.secret()
 
-print(message)
+choice = ''
+choice = str(input("Press 1 to encode your PigeonMessage®. Press 2 to decode a PigeonMessage®.\n"))
+
+if choice == '1':
+	message = str(input("What is the message?\n"))
+	message1 = PigeonMessage(message)
+	message1.secret()
+	print(output2)
+	print('                           .-''-.')
+	print("                         / ,    \'")
+	print("                      .-'`(o)    ;'")
+	print("                      '-==.       |")
+	print('                           `._...-;-.')
+	print('                            )--"""   `-.')
+	print('                           /   .        `-.')
+	print('                          /   /      `.    `-.')
+	print('                          |   \    ;   \      `-._________')
+	print('                          |    \    `.`.;          -------`.')
+	print('                           \    `-.   \\\\          `---...|')
+	print("                           `.     `-. ```\.--'._   `---...|")
+	print('                              `-.....7`-.))\     `-._`-.. /')
+	print("                                `._\ /   `-`         `-.,'")
+	print('                                  / /')
+	print('                                 /=(_')
+	print("                              -./--' `")
+	print('                            ,^-(_')
+	print("                            ,--'")
+	print("-------------------------------------------------------------------")
+	print(output2)
+	print("-------------------------------------------------------------------")
+	
+if choice == '2':
+	message = str(input("What is the message?\n"))
+	message1 = PigeonMessage(message)
+	message1.unsecret()
+	print('                           .-''-.')
+	print("                         / ,    \'")
+	print("                      .-'`(o)    ;'")
+	print("                      '-==.       |")
+	print('                           `._...-;-.')
+	print('                            )--"""   `-.')
+	print('                           /   .        `-.')
+	print('                          /   /      `.    `-.')
+	print('                          |   \    ;   \      `-._________')
+	print('                          |    \    `.`.;          -------`.')
+	print('                           \    `-.   \\\\          `---...|')
+	print("                           `.     `-. ```\.--'._   `---...|")
+	print('                              `-.....7`-.))\     `-._`-.. /')
+	print("                                `._\ /   `-`         `-.,'")
+	print('                                  / /')
+	print('                                 /=(_')
+	print("                              -./--' `")
+	print('                            ,^-(_')
+	print("                            ,--'")
+	print("-------------------------------------------------------------------")
+	print(output2)
+	print("-------------------------------------------------------------------")
 
 
 
