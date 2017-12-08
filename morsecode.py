@@ -50,8 +50,8 @@ class morsecode:
             newmessage = newmessage + morselist[ord(char.lower()) - 97]
         return newmessage
 
-morsetool = morsecode(input('MESSAGE: '))
+# morsetool = morsecode(input('MESSAGE: '))
 
-result = morsetool.write()
+# result = morsetool.write()
 
-print(result)
+# print(result)
