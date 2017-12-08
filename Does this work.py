@@ -127,7 +127,7 @@ class Encoding:
 		print(string2)
 
 answer = str(input('Would you like to encode a message or decode a message? 1 for encode or 2 for decode'))
-while answer != '1' or answer != '2':
+while answer != '1' and answer != '2':
 	print('That is not an option.\n')
 	answer = str(input('Would you like to encode a message or decode a message? 1 for encode or 2 for decode'))
 
