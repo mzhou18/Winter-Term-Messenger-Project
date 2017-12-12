@@ -16,7 +16,7 @@ of the original letter. For example, a --> e, b --> f, and so on. Doing this mak
 to read without decoding it. The decoder just does the same process in reverse. It shifts the alphabet 
 by five in the other direction.
 
-######An example of an Alphabet Shift, but by 3 spaces rather than 5:
+###### An example of an Alphabet Shift, but by 3 spaces rather than 5:
 
 ![An example of an Alphabet Shift, but by 3 spaces rather than 5](http://www.101computing.net/wp/wp-content/uploads/Caesar_substition_cipher-2.png)
 
