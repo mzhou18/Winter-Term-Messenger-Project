@@ -42,7 +42,6 @@ elif mainmessage == '3':
 		message = str(input("What is the message?\n"))
 		message1 = PigeonMessage(message)
 		message1.secret()
-		print(message1.output2)
 		print('                           .-''-.')
 		print("                         / ,    \'")
 		print("                      .-'`(o)    ;'")

@@ -6,7 +6,6 @@ class PigeonMessage:
 
 	def secret(self):
 		global output1
-		global output2
 		array = list(self.message)
 		x = 0
 		while len(array)-1 >= x:
@@ -63,8 +62,7 @@ class PigeonMessage:
 			elif array[x].lower() == 'z':
 				array[x] = '26'
 			x += 1
-		output1 = array
-		output2 = '-'.join(array)
+		self.output2 = '-'.join(array)
 
 	def unsecret(self):
 		global output1
@@ -125,7 +123,6 @@ class PigeonMessage:
 			elif array[x].lower() == '26':
 				array[x] = 'z'
 			x += 1
-		output1 = array
-		output2 = ''.join(array)
+		self.output2 = ''.join(array)
 
 
