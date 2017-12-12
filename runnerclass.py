@@ -1,12 +1,13 @@
 #Runner Class
+from huh import PigeonMessage
 from AlphabetShift import Encoding
 from morsecode import morsecode
-from huh import PigeonMessage
 
 mainmessage = str(input('What kind of message would you like to send? 1 for morse, 2 for alphabet shift, or 3 for pigeon.  '))
 while mainmessage != '1'and mainmessage !='2' and mainmessage !='3':
 	print('That is not an option.\n')
 	mainmessage = str(input('What kind of message would you like to send? 1 for morse, 2 for alphabet shift, or 3 for pigeon.  '))
+
 if mainmessage == '1':
 
 	morsetool = morsecode(input('MESSAGE: '))
@@ -16,6 +17,7 @@ if mainmessage == '1':
 	print(result)
 
 #___________________________________________________________________________________________________________________
+
 elif mainmessage =='2':
 	answer = str(input('Would you like to encode a message or decode a message? 1 for encode or 2 for decode  '))
 	while answer != '1' and answer != '2':
@@ -31,6 +33,7 @@ elif mainmessage =='2':
 		print(code1.string2)
 
 #___________________________________________________________________________________________________________________
+
 elif mainmessage == '3':
 	choice = ''
 	choice = str(input("Press 1 to encode your PigeonMessage®. Press 2 to decode a PigeonMessage®.\n"))
