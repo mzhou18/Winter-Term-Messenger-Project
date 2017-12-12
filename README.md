@@ -16,7 +16,7 @@ of the original letter. For example, a --> e, b --> f, and so on. Doing this mak
 to read without decoding it. The decoder just does the same process in reverse. It shifts the alphabet 
 by five in the other direction.
 
-# -----------------------------------------------------------------------------------------------------
+# ------------------------------------------
 
 ### PigeonMessenger
 
@@ -47,7 +47,7 @@ This code has some problems, however. The code cannot distinguish between upper 
 send in a coded message will be converted to lower case letters. Additionally, you can't have numbers in a decoded message. There is no way to distinguish
 between real numbers, and numbers that are part of the code. Same for letters in the coded messages. 
 
-# -----------------------------------------------------------------------------------------------------
+# ------------------------------------------
 
 ### Morse Code
 Morse code is a method of transmitting text information as a series of on-off dots and dashes.
@@ -56,7 +56,7 @@ Each Morse code symbol represents a text character, such as A, B, C or D, and is
 
 Example: "hi" would become ".....-.--"
 
-# -----------------------------------------------------------------------------------------------------
+# ------------------------------------------
 
 Writing to file:
 
