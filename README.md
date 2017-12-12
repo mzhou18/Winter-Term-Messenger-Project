@@ -11,6 +11,7 @@ to read without decoding it. The decoder just does the same process in reverse. 
 by five in the other direction.
 
 # -----------------------------------------------------------------------------------------------------
+PigeonMessenger - Palmer:
 
 The PigeonMessenger changes each character in your message to a number, a -> 1, b -> 2, c -> 3, etc... empty spaces,
 such as the spaces between words, remain empty. 
@@ -45,9 +46,11 @@ Morse Code:
 
 # -----------------------------------------------------------------------------------------------------
 
-Writing to file:
+Writing to file and Github - Palmer:
 
 I used this website to learn how to write to file: http://www.afterhoursprogramming.com/tutorial/Python/Writing-to-Files/. The morse code and PigeonMessenger each print the same variable as their result,
 regardless of whether the message is being coded or decoded, so each one only needs one chunk of code for write to file. The alphabet
 shift messenger, however, has separate variables for coded messages and decoded messages so each if statement needs its own write to file
 code.
+
+Github worked very well for our collaboration, but there was one mistake we made when I asked John to look over my code. We were both working on the code at the same time, which meant only one of our changes could effectively go through. This meant I had to redo the entire write-to-file code. I had already done it once so it was fine, but it could have been more problematic if the changes lost had been greater.
