@@ -7,7 +7,7 @@ a class that codes messages by an alphabet shift, and finally we have a carrier 
 also codes the message with numbers. John did the alphabet shift class, Michael did the morse code
 class, and Palmer did the carrier pigeon class.
 
-# -------------------------------------
+# ------------------------------------------
 
 ### Alphabet Shift
 
