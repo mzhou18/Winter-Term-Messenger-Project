@@ -1,38 +1,48 @@
 # Winter Term Messenger Project
 
+## By John Stamos
+
 We have three messenger classes in total. We have a class that changes a message into morse code,
 a class that codes messages by an alphabet shift, and finally we have a carrier pigeon class that
 also codes the message with numbers. John did the alphabet shift class, Michael did the morse code
 class, and Palmer did the carrier pigeon class.
+
+# ------------------------------------------
+
+### Alphabet Shift
 
 The alphabet shift is an encoder than replaces each letter of the alphabet with letters five ahead
 of the original letter. For example, a --> e, b --> f, and so on. Doing this makes the message impossible 
 to read without decoding it. The decoder just does the same process in reverse. It shifts the alphabet 
 by five in the other direction.
 
-# -----------------------------------------------------------------------------------------------------
+###### An example of an Alphabet Shift, but by 3 spaces rather than 5:
 
-PigeonMessenger - Palmer:
+![An example of an Alphabet Shift, but by 3 spaces rather than 5](http://www.101computing.net/wp/wp-content/uploads/Caesar_substition_cipher-2.png)
+
+# ------------------------------------------
+
+### PigeonMessenger
 
 The PigeonMessenger changes each character in your message to a number, a -> 1, b -> 2, c -> 3, etc... empty spaces,
 such as the spaces between words, remain empty. 
 
-	If the message entered reads: 
+If the message entered reads: 
 
 	hello world!
 
-	The message after being coded reads:
+The message after being coded reads:
 
 	8-5-12-12-15- -23-15-18-12-4-!
 
 The program also has the ability to decode messages. Messages set to be decoded must be formatted like the result shown above.
 As before, empy spaces will remain empty. Now, however, the hyphens between the characters will disappear.
 
-	If the message entered reads:
+If the message entered reads:
 
 	8-5-12-12-15- -23-15-18-12-4-!
 
-	The message after being decoded reads:
+The message after being decoded reads:
 
 	hello world!
 
@@ -41,17 +51,36 @@ This code has some problems, however. The code cannot distinguish between upper 
 send in a coded message will be converted to lower case letters. Additionally, you can't have numbers in a decoded message. There is no way to distinguish
 between real numbers, and numbers that are part of the code. Same for letters in the coded messages. 
 
-# -----------------------------------------------------------------------------------------------------
+![PigeonMessenger](https://keeveneo.files.wordpress.com/2012/03/messenger-pigeon-low-res.jpg?w=560)
 
-Morse Code:
+# ------------------------------------------
 
-# -----------------------------------------------------------------------------------------------------
+### Morse Code
+Morse code is a method of transmitting text information as a series of on-off dots and dashes.
 
-Writing to file and Github - Palmer:
+Each Morse code symbol represents a text character, such as A, B, C or D, and is represented by a unique sequence of dots and dashes. The user would be able to type in a word, and then each of those letters would be converted into a series of dots and dashes.
+
+Example: "hi" would become ".....-.--"
+
+![Morse Code](https://cdn.thinglink.me/api/image/891739369830875137/1240/10/scaletowidth)
+
+# ------------------------------------------
+
+### Reflection
+
+Everyone contributed to the project, and quite evenly. Palmer worked on his PigeonMessenger, John worked on his Alphabet Shift, and Michael worked on his Morse Code. Each member described their project in the README file. Michael and John began working on the runnerclass, and then John and Palmer finished it up.
+
+Michael: I think the project went really well. I mean, the code works, but also I think each member contributed their fair share. I think the project was really cool because we message a lot in real life, so I was excited to figure out how to code some kind of messenger tool.
+
+John:
+
+Palmer:
+
+# ------------------------------------------
+
+Writing to file:
 
 I used this website to learn how to write to file: http://www.afterhoursprogramming.com/tutorial/Python/Writing-to-Files/. The morse code and PigeonMessenger each print the same variable as their result,
 regardless of whether the message is being coded or decoded, so each one only needs one chunk of code for write to file. The alphabet
 shift messenger, however, has separate variables for coded messages and decoded messages so each if statement needs its own write to file
 code.
-
-Github worked very well for our collaboration, but there was one mistake we made when I asked John to look over my code. We were both working on the code at the same time, which meant only one of our changes could effectively go through. This meant I had to redo the entire write-to-file code. I had already done it once so it was fine, but it could have been more problematic if the changes lost had been greater.
