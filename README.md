@@ -16,6 +16,8 @@ of the original letter. For example, a --> e, b --> f, and so on. Doing this mak
 to read without decoding it. The decoder just does the same process in reverse. It shifts the alphabet 
 by five in the other direction.
 
+![An example of an Alphabet Shift, but by 3 spaces rather than 5](http://www.101computing.net/wp/wp-content/uploads/Caesar_substition_cipher-2.png)
+
 # ------------------------------------------
 
 ### PigeonMessenger
@@ -46,6 +48,8 @@ These messages, whether coded or decoded are printed below the image of a giant 
 This code has some problems, however. The code cannot distinguish between upper case and lower case letters and so any upper case letters you
 send in a coded message will be converted to lower case letters. Additionally, you can't have numbers in a decoded message. There is no way to distinguish
 between real numbers, and numbers that are part of the code. Same for letters in the coded messages. 
+
+![PigeonMessenger](https://keeveneo.files.wordpress.com/2012/03/messenger-pigeon-low-res.jpg?w=560)
 
 # ------------------------------------------
 
