@@ -68,7 +68,13 @@ Example: "hi" would become ".....-.--"
 
 ### Reflection
 
-Everyone contributed to the project, and quite evenly. Palmer worked on his PigeonMessenger, John worked on his Alphabet Shift, and Michael worked on his Morse Code. Each member described their project in the README file. Michael and John began working on the runnerclass, but then John and Palmer finished it up.
+Everyone contributed to the project, and quite evenly. Palmer worked on his PigeonMessenger, John worked on his Alphabet Shift, and Michael worked on his Morse Code. Each member described their project in the README file. Michael and John began working on the runnerclass, and then John and Palmer finished it up.
+
+Michael: I think the project went really well. I mean, the code works, but also I think each member contributed their fair share. I think the project was really cool because we message a lot in real life, so I was excited to figure out how to code some kind of messenger tool.
+
+John:
+
+Palmer:
 
 # ------------------------------------------
 
