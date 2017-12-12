@@ -56,6 +56,8 @@ Each Morse code symbol represents a text character, such as A, B, C or D, and is
 
 Example: "hi" would become ".....-.--"
 
+![Morse Code](https://cdn.thinglink.me/api/image/891739369830875137/1240/10/scaletowidth)
+
 # ------------------------------------------
 
 Writing to file:
