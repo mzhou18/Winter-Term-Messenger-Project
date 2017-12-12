@@ -74,13 +74,19 @@ Michael: I think the project went really well. I mean, the code works, but also 
 
 John:
 
-Palmer:
+Palmer: I was very surprised to see how evenly the work distribution ended up being. We were all pretty confused as to what to do at first, but we slowly started figuring out ways to create a pretty decent program together. We checked each other's codes and worked together on several parts of the code. I think it may be interesting to try to create a messaging app that is slightly more interactive, as this one doesn't really allow input from more than one user, nor can it store multiple separate conversations. 
 
 # ------------------------------------------
 
-Writing to file:
+### Writing to file:
 
 I used this website to learn how to write to file: http://www.afterhoursprogramming.com/tutorial/Python/Writing-to-Files/. The morse code and PigeonMessenger each print the same variable as their result,
 regardless of whether the message is being coded or decoded, so each one only needs one chunk of code for write to file. The alphabet
 shift messenger, however, has separate variables for coded messages and decoded messages so each if statement needs its own write to file
 code.
+
+# ------------------------------------------
+
+### Github Experience
+
+Github worked rather well for us nearly every step of the way. We did, however, have one or two awkward moments when we unknowingly edited the same file at the same time. This proved problematic as it meant we had to commit one person's changes, and the other person had to basically redo what they had done before. Besides that, however, everything went pretty smoothly. Our commits are super messy and its hard to tell exactly what happened where sometimes, but big changes are marked decently clearly, clearly enough that we could easily tell where they happened, and that seems like the most important thing.
