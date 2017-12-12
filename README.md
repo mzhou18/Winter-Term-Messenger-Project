@@ -5,12 +5,18 @@ a class that codes messages by an alphabet shift, and finally we have a carrier 
 also codes the message with numbers. John did the alphabet shift class, Michael did the morse code
 class, and Palmer did the carrier pigeon class.
 
+# -----------------------------------------------------------------------------------------------------
+
+### Alphabet Shift
+
 The alphabet shift is an encoder than replaces each letter of the alphabet with letters five ahead
 of the original letter. For example, a --> e, b --> f, and so on. Doing this makes the message impossible 
 to read without decoding it. The decoder just does the same process in reverse. It shifts the alphabet 
 by five in the other direction.
 
 # -----------------------------------------------------------------------------------------------------
+
+### PigeonMessenger
 
 The PigeonMessenger changes each character in your message to a number, a -> 1, b -> 2, c -> 3, etc... empty spaces,
 such as the spaces between words, remain empty. 
@@ -41,7 +47,12 @@ between real numbers, and numbers that are part of the code. Same for letters in
 
 # -----------------------------------------------------------------------------------------------------
 
-Morse Code:
+### Morse Code
+Morse code is a method of transmitting text information as a series of on-off dots and dashes.
+
+Each Morse code symbol represents a text character, such as A, B, C or D, and is represented by a unique sequence of dots and dashes. The user would be able to type in a word, and then each of those letters would be converted into a series of dots and dashes.
+
+Example: "hi" would become ".....-.--"
 
 # -----------------------------------------------------------------------------------------------------
 
