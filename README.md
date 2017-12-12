@@ -12,7 +12,7 @@ by five in the other direction.
 
 # -----------------------------------------------------------------------------------------------------
 
-The PigeonMessager changes each character in your message to a number, a -> 1, b -> 2, c -> 3, etc... empty spaces,
+The PigeonMessenger changes each character in your message to a number, a -> 1, b -> 2, c -> 3, etc... empty spaces,
 such as the spaces between words, remain empty. 
 
 	If the message entered reads: 
@@ -40,3 +40,14 @@ send in a coded message will be converted to lower case letters. Additionally, y
 between real numbers, and numbers that are part of the code. Same for letters in the coded messages. 
 
 # -----------------------------------------------------------------------------------------------------
+
+Morse Code:
+
+# -----------------------------------------------------------------------------------------------------
+
+Writing to file:
+
+I used this website to learn how to write to file: http://www.afterhoursprogramming.com/tutorial/Python/Writing-to-Files/. The morse code and PigeonMessenger each print the same variable as their result,
+regardless of whether the message is being coded or decoded, so each one only needs one chunk of code for write to file. The alphabet
+shift messenger, however, has separate variables for coded messages and decoded messages so each if statement needs its own write to file
+code.
