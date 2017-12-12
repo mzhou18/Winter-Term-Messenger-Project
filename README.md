@@ -66,6 +66,12 @@ Example: "hi" would become ".....-.--"
 
 # ------------------------------------------
 
+### Reflection
+
+Everyone contributed to the project, and quite evenly. Palmer worked on his PigeonMessenger, John worked on his Alphabet Shift, and Michael worked on his Morse Code. Each member described their project in the README file. Michael and John began working on the runnerclass, but then John and Palmer finished it up.
+
+# ------------------------------------------
+
 Writing to file:
 
 I used this website to learn how to write to file: http://www.afterhoursprogramming.com/tutorial/Python/Writing-to-Files/. The morse code and PigeonMessenger each print the same variable as their result,
