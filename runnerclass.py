@@ -7,7 +7,7 @@ mainmessage = str(input('What kind of message would you like to send? 1 for mors
 while mainmessage != '1'and mainmessage !='2' and mainmessage !='3':
 	print('That is not an option.\n')
 	mainmessage = str(input('What kind of message would you like to send? 1 for morse, 2 for alphabet shift, or 3 for pigeon.  '))
-if mainmessage =='1':
+if mainmessage == '1':
 
 	morsetool = morsecode(input('MESSAGE: '))
 
