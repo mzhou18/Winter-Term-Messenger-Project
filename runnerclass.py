@@ -16,7 +16,7 @@ if mainmessage =='1':
 	print(result)
 
 	f = open("test.txt","a") #opens file with name of "test.txt and appends to it"
-	f.write(result)
+	f.write(result + "\n\n")
 	f.close()
 
 #___________________________________________________________________________________________________________________
@@ -30,14 +30,14 @@ elif mainmessage =='2':
 		code1.encode()
 		print(code1.string1)
 		f = open("test.txt","a") #opens file with name of "test.txt and appends to it"
-		f.write(code1.string1)
+		f.write(code1.string1 + "\n\n")
 		f.close()
 	elif answer =='2':
 		code1 = Encoding(str(input('What message would you like to decode?  ')))
 		code1.decode()
 		print(code1.string2)
 		f = open("test.txt","a") #opens file with name of "test.txt and appends to it"
-		f.write(code1.string2)
+		f.write(code1.string2 + "\n\n")
 		f.close()
 #___________________________________________________________________________________________________________________
 elif mainmessage == '3':
@@ -101,7 +101,7 @@ elif mainmessage == '3':
 		print(message1.output2)
 		print("-------------------------------------------------------------------")
 	f = open("test.txt","a") #opens file with name of "test.txt and appends to it"
-	f.write(message1.output2)
+	f.write(message1.output2 + "\n\n")
 	f.close()
 
 
