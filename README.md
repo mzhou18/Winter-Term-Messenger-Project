@@ -77,7 +77,11 @@ Everyone contributed to the project, and quite evenly. Palmer worked on his Pige
 
 Michael: I think the project went really well. I mean, the code works, but also I think each member contributed their fair share. I think the project was really cool because we message a lot in real life, so I was excited to figure out how to code some kind of messenger tool.
 
-John:
+John: I think that Github has many pros and cons. Using it allowed us to be able to compile things into the same code so we cold theoretically be working on the same thing at the same time. However, that does not work wso well in practice. 
+When  two people works on the same thing at the same time each person is working on a file that becomes outdated because it does not include what everyone else is writing. And when you try to push something, you have to pull from the origin 
+first, which might delete the code that you wrote. Because of this, in order for people to be workiing on the same code at the same time, you would have to be constantly pushing and pulling the code which would take up a lot of time that could 
+be spent elsewhere. I think that the ideas of Github are really good, but they don't neccesarily execute those ideas well.
+
 
 Palmer: I was very surprised to see how evenly the work distribution ended up being. We were all pretty confused as to what to do at first, but we slowly started figuring out ways to create a pretty decent program together. We checked each other's codes and worked together on several parts of the code. I think it may be interesting to try to create a messaging app that is slightly more interactive, as this one doesn't really allow input from more than one user, nor can it store multiple separate conversations. 
 
@@ -93,16 +97,10 @@ code.
 <<<<<<< HEAD
 Github worked very well for our collaboration, but there was one mistake we made when I asked John to look over my code. We were both working on the code at the same time, which meant only one of our changes could effectively go through. This meant I had to redo the entire write-to-file code. I had already done it once so it was fine, but it could have been more problematic if the changes lost had been greater.
 
-John:
 
-I think that Github has many pros and cons. Using it allowed us to be able to compile things into the same code so we cold theoretically be working on the same thing at the same time. However, that does not work wso well in practice. 
-When  two people works on the same thing at the same time each person is working on a file that becomes outdated because it does not include what everyone else is writing. And when you try to push something, you have to pull from the origin first,
-which might delete the code that you wrote. Because of this, in order for people to be workiing on the same code at the same time, you would have to be constantly pushing and pulling the code which would take up a lot of time that could be used 
-elsewhere. I think that the ideas of Github are really good, but they don't neccesarily execute those ideas well.
-=======
 # ------------------------------------------
 
 ### Github Experience
 
 Github worked rather well for us nearly every step of the way. We did, however, have one or two awkward moments when we unknowingly edited the same file at the same time. This proved problematic as it meant we had to commit one person's changes, and the other person had to basically redo what they had done before. Besides that, however, everything went pretty smoothly. Our commits are super messy and its hard to tell exactly what happened where sometimes, but big changes are marked decently clearly, clearly enough that we could easily tell where they happened, and that seems like the most important thing.
->>>>>>> 0ac11fa1f8675dcc868d43989b6a9821b4229eab
+>>>>>>> 
