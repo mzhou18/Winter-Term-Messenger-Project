@@ -15,6 +15,9 @@ if mainmessage == '1':
 	result = morsetool.write()
 
 	print(result)
+	f = open("test.txt","a") #opens file with name of "test.txt"
+	f.write(result)
+	f.close()
 
 #___________________________________________________________________________________________________________________
 
@@ -27,11 +30,16 @@ elif mainmessage =='2':
 		code1 = Encoding(str(input('What message would you like to encode?  ')))
 		code1.encode()
 		print(code1.string1)
+		f = open("test.txt","a") #opens file with name of "test.txt"
+		f.write(code1.string1)
+		f.close()
 	elif answer =='2':
 		code1 = Encoding(str(input('What message would you like to decode?  ')))
 		code1.decode()
 		print(code1.string2)
-
+		f = open("test.txt","a") #opens file with name of "test.txt"
+		f.write(code1.string2)
+		f.close()
 #___________________________________________________________________________________________________________________
 
 elif mainmessage == '3':
@@ -96,5 +104,8 @@ elif mainmessage == '3':
 		print(message1.output2)
 		print("-------------------------------------------------------------------")
 
+	f = open("test.txt","a") #opens file with name of "test.txt"
+	f.write(message1.output2)
+	f.close()
 
 
