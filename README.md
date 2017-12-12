@@ -5,6 +5,9 @@ a class that codes messages by an alphabet shift, and finally we have a carrier 
 also codes the message with numbers. John did the alphabet shift class, Michael did the morse code
 class, and Palmer did the carrier pigeon class.
 
+# ------------------------------------------------------------------------------------------------------
+Alphabet Shift- John:
+
 The alphabet shift is an encoder than replaces each letter of the alphabet with letters five ahead
 of the original letter. For example, a --> e, b --> f, and so on. Doing this makes the message impossible 
 to read without decoding it. The decoder just does the same process in reverse. It shifts the alphabet 
@@ -55,3 +58,10 @@ shift messenger, however, has separate variables for coded messages and decoded 
 code.
 
 Github worked very well for our collaboration, but there was one mistake we made when I asked John to look over my code. We were both working on the code at the same time, which meant only one of our changes could effectively go through. This meant I had to redo the entire write-to-file code. I had already done it once so it was fine, but it could have been more problematic if the changes lost had been greater.
+
+John:
+
+I think that Github has many pros and cons. Using it allowed us to be able to compile things into the same code so we cold theoretically be working on the same thing at the same time. However, that does not work wso well in practice. 
+When  two people works on the same thing at the same time each person is working on a file that becomes outdated because it does not include what everyone else is writing. And when you try to push something, you have to pull from the origin first,
+which might delete the code that you wrote. Because of this, in order for people to be workiing on the same code at the same time, you would have to be constantly pushing and pulling the code which would take up a lot of time that could be used 
+elsewhere. I think that the ideas of Github are really good, but they don't neccesarily execute those ideas well.

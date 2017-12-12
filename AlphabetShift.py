@@ -1,5 +1,5 @@
 #Encoding a Message
-
+#John Burt
 class Encoding:
 
 	def __init__(self, message):
@@ -7,6 +7,7 @@ class Encoding:
 		self.string1 = ''
 		self.string2 = ''
 
+#Encoding Function
 	def encode(self):
 		list1 = list(self.message)
 		n = 0
@@ -66,6 +67,7 @@ class Encoding:
 			n = n+1
 		self.string1 =''.join(list1)
 
+#Decoding function
 	def decode(self):
 		list2 = list(self.message)
 		a = 0
@@ -125,6 +127,8 @@ class Encoding:
 				list2[a] = 'z'
 			a = a+1
 		self.string2 =''.join(list2)
+
+#Code used to execute the function that we moved to our runner class
 '''
 answer = str(input('Would you like to encode a message or decode a message? 1 for encode or 2 for decode  '))
 while answer != '1' and answer != '2':
