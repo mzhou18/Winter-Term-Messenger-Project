@@ -32,7 +32,8 @@ elif mainmessage =='2':
 
 #___________________________________________________________________________________________________________________
 elif mainmessage == '3':
-	choice = str(input('Press 1 to encode your PigeonMessage®. Press 2 to decode a PigeonMessage®.\n'))
+	choice = ''
+	choice = str(input("Press 1 to encode your PigeonMessage®. Press 2 to decode a PigeonMessage®.\n"))
 	while choice != '1' and choice !='2':
 		print('That is not an option.\n')
 		choice = str(input("Press 1 to encode your PigeonMessage®. Press 2 to decode a PigeonMessage®.\n"))
@@ -41,7 +42,7 @@ elif mainmessage == '3':
 		message = str(input("What is the message?\n"))
 		message1 = PigeonMessage(message)
 		message1.secret()
-		print(output2)
+		print(message1.output2)
 		print('                           .-''-.')
 		print("                         / ,    \'")
 		print("                      .-'`(o)    ;'")
@@ -62,7 +63,7 @@ elif mainmessage == '3':
 		print('                            ,^-(_')
 		print("                            ,--'")
 		print("-------------------------------------------------------------------")
-		print(output2)
+		print(message1.output2)
 		print("-------------------------------------------------------------------")
 		
 	if choice == '2':
@@ -89,7 +90,7 @@ elif mainmessage == '3':
 		print('                            ,^-(_')
 		print("                            ,--'")
 		print("-------------------------------------------------------------------")
-		print(output2)
+		print(message1.output2)
 		print("-------------------------------------------------------------------")
 
 
